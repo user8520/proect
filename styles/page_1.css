@@ -1,0 +1,155 @@
+body {
+    margin: 0%;
+}
+#head {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+#div_lohotip {
+    background-color: rgb(87, 87, 87);
+    border-bottom: 3px solid wheat;
+    border-right:  3px solid wheat;
+    max-height: 130px;
+    min-height: 130px;
+    max-width: 122px;
+    min-width: 122px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#title {
+    background-color: rgb(87, 87, 87);
+    border-bottom: 3px solid wheat;
+    max-height: 65px;
+    min-height: 65px;
+    width: 100%;
+}
+h1{
+    margin-left: 10px;
+}
+#menu_1 {
+    max-height: 65px;
+    min-height: 65px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#menu_1_1 {
+    background-color: rgb(87, 87, 87);
+    border-bottom: 3px solid wheat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+}
+#menu_1_2 {
+    border-bottom: 3px solid rgb(104, 104, 104);
+    background-color: rgb(104, 104, 104);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu_1_3 {
+    border-bottom: 3px solid wheat;
+    background-color: rgb(87, 87, 87);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu_1_4 {
+    border-bottom: 3px solid wheat;
+    background-color: rgb(87, 87, 87);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteiner {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    height: 150%;
+    width: 100%;
+}
+#menu_2 {
+    background-color: rgb(87, 87, 87);
+    border-right: 3px solid wheat;
+    max-width: 122px;
+    min-width: 122px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    width: 100%;
+}
+.button {
+    background-color: rgb(87, 87, 87);
+    border: 1px solid rgb(87, 87, 87);
+    color: white;
+    margin-top: 5px;
+    font-size: 105%;
+    white-space: pre-line;
+    padding: 1%;
+}
+#content {
+    height: 100%;
+}
+#img_4 {
+    margin-top: 1px;
+}
+#div_img {
+    position: absolute;
+}
+#pr {
+    visibility: hidden;
+    position: absolute;
+    padding-left: 10%;
+    width: 50%;
+}
+#arifm {
+    visibility: hidden;
+    position: absolute;
+    padding-left: 10%;
+    width: 50%;
+}
+#type {
+    visibility: hidden;
+    position: absolute;
+    padding-left: 10%;
+    width: 50%;
+}
+#cikl {
+    visibility: hidden;
+    position: absolute;
+    padding-left: 10%;
+    width: 50%;
+}
+#cikl_ef {
+    visibility: hidden;
+    position: absolute;
+    padding-left: 10%;
+    width: 50%;
+}
+#contacts {
+    background-color: rgb(87, 87, 87);
+    border-top: 3px solid wheat;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+#contacts p {
+    margin: 2% 0% 2% 10%;
+  }

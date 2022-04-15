@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/page_1.css">
+        <title>Python assistant</title>
+    </head>
+    <body>
+        <div id="windows">
+            <div id="head">
+                <div id="div_lohotip">
+                    <img src="images/lohotip.gif">
+                </div>
+                <div id="header">
+                    <div id="title">
+                        <h1>Python assistant</h1>
+                    </div>
+                    <div id="menu_1">
+                        <div id="menu_1_1">
+                            <a href="index.html" style="text-decoration: none; color: white;"><div style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;"><p>Головна</p></div></a>
+                        </div>
+                        <div id="menu_1_2">
+                            <a style="text-decoration: none; color: white;"><div style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;"><p>Довідник</p></div></a>
+                        </div>
+                        <div id="menu_1_3">
+                            <a href="page_2.html" style="text-decoration: none; color: white;"><div style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;"><p>Архів програм</p></div></a>
+                        </div>
+                        <div id="menu_1_4" onclick="chat()">
+                            <a href="page_3.php" style="text-decoration: none; color: white;"><div style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;"><p>Форум</p></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="conteiner">
+                <div id="menu_2">
+                    <input type="button" value="Функція prіnt" class="button" onclick="pr()">
+                    <hr>
+                    <input type="button" value="Типи даних" class="button" onclick="tipe()">
+                    <hr>
+                    <input type="button" value="Арифметичні дії" class="button" onclick="arifm()">
+                    <hr>
+                    <input type="button" value="Цикли" class="button" onclick="cikl()">
+                    <hr>
+                    <input type="button" value="Оператори continue та break" class="button" onclick="cikl_ef()">
+                </div>
+                <div id="content">
+                    <div id="div_img">
+                        <img id="img_4" src="images/img_4.jpg">
+                    </div>
+                    <div id="pr">
+                        <h2 style="padding-left: 10%; font-size: 32px;">Print</h2>
+                        <p style="font-size: 16px;">Команда print використовується для виведення тексту(символів).</p>
+                        <p style="font-size: 16px;">Текст для виведення береться в лапки в дужках.</p>
+                        <img src="images/print_1.jpg">
+                        <p style="font-size: 16px;">Також можна виводити значення змінних. Для початку потрібно прив'язати цій змінній якийсь текст, символ чи число. Для цього використаємо таку команду: Назва змінної="Якийсь текст" або Назва змінної=Якесь число. Зверніть увагу, що при призначенні змінній числа ми не беремо його в лапки навідмінно від текста. Потім, щоб вивести значення використаємо функцію print(), при цьому ми пишемо назву змінної в душках, не биручи її в лапки.</p><br>
+                        <p style="font-size: 16px;">Наприклад: </p>
+                        <img src="images/print_2.jpg">
+                    </div>
+                    <div id="type">
+                        <h2 style="padding-left: 10%; font-size: 32px;">Типи даних</h2>
+                        <p style="font-size: 16px;">При програмуванні мовою Python використовується достатньо велика кількість типів даних. Але є основні, такі як: </p>
+                        <ul>
+                            <li>boolean — логічнтй тип</li>
+                            <li>integer — ціле число</li>
+                            <li>float — дійсне число</li>
+                            <li>string — рядок</li>
+                        </ul>
+                        <p style="font-size: 16px;">Також можна перевірити тип даних, які прив'язані до змінних за допомогою функції print(), а саме:</p>
+                        <img src="images/type_1.jpg">
+                        <p style="font-size: 16px;">Іноді потрібно змінити тип даних змінної, наприклад з рядка на число, щоб надалі виконувати арифметичні дії над числом. Для цього використаємо таку команду: Назва змінної=Новий тип(Назва змінної)</p>
+                        <img src="images/type_2.jpg">
+
+                    </div>
+                    <div id="arifm">
+                        <h2 style="padding-left: 10%; font-size: 32px;">Арифметичні дії</h2>
+                        <p style="font-size: 16px;">Основними арифметичними діями в мові програмування Python є: +, -, *, /, **, //, %.</p>
+                        <ul>
+                            <li>+ — використовується для додавання чисел або додавання одного рядка до іншого.</li>
+                            <li>- — використовується для віднімання чисел.</li>
+                            <li>* — використовується для множення чисел або для повторення рядка.</li>
+                            <li>/ — використовується для ділення чисел.</li>
+                            <li>** — використовується для піднесення числа до степеня.</li>
+                            <li>// — використовується для ділення чисел без остачі.</li>
+                            <li>% — використовується для визначення остачі від ділення чисел.</li>
+                        </ul>
+                        <img src="images/arifm_1.jpg">
+                    </div>
+                    <div id="cikl">
+                        <h2 style="padding-left: 10%; font-size: 32px;">Цикли</h2>
+                        <p style="font-size: 16px;">В мові Python часть використовують цикли різних типів. Цикли for та while. Цикл має таку будову: умова, тіло.</p>
+                        <p style="font-size: 16px;">Цикл while (з англ. - доки) виконує тіло циклу до того часу, доки умова циклу виконується, а також цикл for.</p>
+                        <p style="font-size: 16px;">Використовуючи команди if (якщо), else (інакше) та elif(інакше якщо), можна робити розгалудження.</p>
+                        <img src="images/cikl_1.jpg" style="margin-bottom: 5%;">
+                        <img src="images/cikl_2.jpg">
+                    </div>
+                    <div id="cikl_ef">
+                        <h2 style="padding-left: 10%; font-size: 32px;">Оператори continue та break</h2>
+                        <p style="font-size: 16px;">Оператор continue починає наступний прохід циклу, минаючи тіло циклу, що залишилося.</p>
+                        <img src="images/cikl_ef_1.jpg" style="margin-bottom: 5%;">
+                        <p style="font-size: 16px;">Оператор break достроково перериває цикл.</p>
+                        <img src="images/cikl_ef_2.jpg">
+                    </div>
+                </div>
+            </div>
+            <div id="contacts">
+                <p>Номер телефону: +380988888888</p>
+                <p>Пошта: pupil7@cherkasy_school13.ukr.education</p>
+                <p>Адреса: вул. Гетьмана Сагайдачного, 146</p>
+            </div>
+        </div>
+        <script src="scripts/page_1.js"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
